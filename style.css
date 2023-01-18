@@ -1,0 +1,154 @@
+body {
+  align-self: start;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  padding: 20px;
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient( to right, rgb(40, 224, 224),rgb(210, 156, 165));
+}
+
+
+h1 {
+  margin-bottom: 20px;
+  /* color: darkblue; */
+}
+main{
+  align-self: start;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  padding: 20px;
+  height: 100vh;
+  width: 100vw;
+ 
+  
+
+}
+h3{
+  background-color:lightgreen;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+label {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+   button {
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#student-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
+  display: none;
+   
+
+
+  ;
+  
+}.right-container{
+    
+    height: 40vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: blue;
+    
+}.input_text{
+    width: 50vw;
+        height: 4vh;
+        padding: 5px;
+        font-size: 20px;
+        border-radius: 5px;
+}.contact-btn:hover {
+    background: #ff9100;
+    text-decoration: none;
+  }
+ 
+  .icon{
+    display: flex;
+    gap: 116px;
+    color: blue;
+    cursor: pointer;
+  }
+  .fa-house:hover{
+    color: aqua;
+  }
+  #about{
+    
+    color: rgb(55, 13, 135);
+    
+  }
+  ul{
+    display: flex;
+    gap: 25px;
+    justify-content: flex-end;
+
+  }
+  li{
+     list-style-type: none;
+  }
+  h5{
+    width: 50%;
+  }
+  .img img{
+    position: absolute;
+    left: 56%;
+    top: 27%;
+    height: 61%;
+    width: fit-content;
+  }
+  
+  #aa:hover{
+    width: 300px;
+    height: 300px;
+  }
+  #con:hover{
+    width: 600px;
+    height: 500px;
+  }
+  .fa-bars:hover{
+    color: black;
+  }
+ .a ul li a{
+  text-decoration: none;
+  color: blue;
+ }
+ .a ul li a:hover{
+  color: black;
+  
+ }
+ 
+ #services{
+  margin-top: 20px;
+ }
+  #si{
+    text-align: end;
+  
+  }
